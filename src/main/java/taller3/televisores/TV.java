@@ -67,15 +67,15 @@ public class TV {
 		return this.estado;
 	}
 	public void canalUp() {
-		      this.canal++;
+		 this.setCanal(this.canal++);
 	}
 	public void canalDown() {
-		      this.canal--;
+		  this.setCanal(this.canal--);
 	}
 	public void volumenUp() {
-		      this.volumen++;
+		  this.setVolumen( this.volumen++);
 	}
 	public void volumenDown() {
-		      this.volumen--;
+		   this.setVolumen( this.volumen--);
 	}
 }
