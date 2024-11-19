@@ -15,6 +15,7 @@ public class TV {
 		this.canal = 1;
 		this.volumen = 1;
 		this.precio = 500;
+		
 		TV.numTV++;
 	}
 	public static int getNumTV() {
@@ -30,16 +31,16 @@ public class TV {
 		this.estado = false;
 	}
 	public void canalUp() {
-		  this.setCanal(this.canal++);
+		  this.setCanal(this.canal + 1);
 	}
 	public void canalDown() {
-		  this.setCanal(this.canal--);
+		  this.setCanal(this.canal - 1);
 	}
 	public void volumenUp() {
-		  this.setVolumen( this.volumen++);
+		  this.setVolumen( this.volumen + 1);
 	}
 	public void volumenDown() {
-		   this.setVolumen( this.volumen--);
+		   this.setVolumen( this.volumen - 1);
 	}
 	public Marca getMarca() {
 		return this.marca;
@@ -52,7 +53,8 @@ public class TV {
 	}
 	public int getVolumen() {
 		return this.volumen;
-	}	public Control getControl() {
+	}	
+	public Control getControl() {
 		return this.control;
 	}
 	public boolean getEstado() {
