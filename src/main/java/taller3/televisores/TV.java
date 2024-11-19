@@ -67,23 +67,15 @@ public class TV {
 		return this.estado;
 	}
 	public void canalUp() {
-		if (this.estado == true)
-			if (canal>=1 && canal<=120)
 		      this.canal++;
 	}
 	public void canalDown() {
-		if (this.estado == true)
-			if (canal>=1 && canal<=120)
 		      this.canal--;
 	}
 	public void volumenUp() {
-		if (this.estado == true)
-			if (volumen>=0 && volumen<=7)
 		      this.volumen++;
 	}
 	public void volumenDown() {
-		if (this.estado == true)
-			if (volumen>=0 && volumen<=7)
 		      this.volumen--;
 	}
 }
