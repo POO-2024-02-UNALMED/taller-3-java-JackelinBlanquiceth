@@ -31,16 +31,16 @@ public class TV {
 		this.estado = false;
 	}
 	public void canalUp() {
-		  this.setCanal(this.canal++);
+		  this.setCanal(this.canal + 1);
 	}
 	public void canalDown() {
-		  this.setCanal(this.canal--);
+		  this.setCanal(this.canal - 1);
 	}
 	public void volumenUp() {
-		  this.setVolumen( this.volumen++);
+		  this.setVolumen( this.volumen + 1);
 	}
 	public void volumenDown() {
-		   this.setVolumen( this.volumen--);
+		   this.setVolumen( this.volumen - 1);
 	}
 	public Marca getMarca() {
 		return this.marca;
