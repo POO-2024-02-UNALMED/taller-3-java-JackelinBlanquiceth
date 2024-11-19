@@ -41,15 +41,7 @@ public class TV {
 	public void volumenDown() {
 		   this.setVolumen( this.volumen - 1);
 	}
-	public Marca getMarca() {
-		return this.marca;
-	}
-	public int getCanal() {
-		return this.canal;
-	}
-	public int getPrecio() {
-		return this.precio;
-	}
+	
 	public int getVolumen() {
 		return this.volumen;
 	}	
@@ -80,5 +72,13 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
-	
+	public Marca getMarca() {
+		return this.marca;
+	}
+	public int getCanal() {
+		return this.canal;
+	}
+	public int getPrecio() {
+		return this.precio;
+	}
 }
