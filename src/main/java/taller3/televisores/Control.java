@@ -39,6 +39,7 @@ public class Control {
 	public void setVolumen(int volumen) {
 		this.tv.setVolumen(volumen);
 	}
+	
 	public TV getTv() {
 		return this.tv;
 	}
